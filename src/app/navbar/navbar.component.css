@@ -1,0 +1,6 @@
+.nav-border{
+    border-bottom: 1px solid grey;
+}
+.active-link{
+    font-weight: bold;
+}
