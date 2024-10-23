@@ -11,7 +11,8 @@ export const routes: Routes = [
     {path: 'contact', component: ContactComponent},
     {path: 'careers', component: CareersComponent},
     {path: 'shop', component: ShopComponent},
-    {path: 'adrielmusic', redirectTo:'/home', pathMatch:'full'},
-    {path: '/', redirectTo:'/home', pathMatch:'full'},
-    {path: '**', redirectTo:'/home', pathMatch:'full'}
+    {path: 'adrielmusic', redirectTo:'home', pathMatch:'full'},
+    {path: 'adrielmusic/', redirectTo:'home', pathMatch:'full'},
+    {path: '/', redirectTo:'home', pathMatch:'full'},
+    {path: '**', redirectTo:'home', pathMatch:'full'}
 ];
